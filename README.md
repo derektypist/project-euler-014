@@ -13,7 +13,7 @@ It can be seen that this sequence (starting at 13 and finishes at 1) contains 10
 
 Which starting number, under the given `limit` (e.g. 1000000), produces the longest chain?
 
-**NOTE:**Once the chain starts, the terms are allowed to go above `limit`.
+**NOTE:** Once the chain starts, the terms are allowed to go above `limit`.
 
 The aim is to investigate this using HTML Forms and JavaScript.
 
