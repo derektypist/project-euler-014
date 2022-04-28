@@ -9,7 +9,7 @@ function getNumberInfo() {
         txt += `Invalid Input.  Please enter a whole number between 2 and 2000000.`;
     } else {
         txt += `You have entered the number ${num}. <p>`;
-        txt += `The starting number, under ${num}, produces the longest chain is ${longestCollatzSequence(num)}.`;
+        txt += `The starting number, under ${num}, which produces the longest chain is ${longestCollatzSequence(num)}.`;
     }
 
     // Display Information in the Browser
