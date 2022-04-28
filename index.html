@@ -27,5 +27,28 @@
         <p>Which starting number, under the limit, produces the longest chain? </p>
         <p><strong>NOTE: </strong>Once the chain starts, the terms are allowed to go above the limit.</p>
     </section>
+
+    <!-- Set Up Form -->
+    <section class="container-fluid">
+        <form>
+            <!-- Set Up Label and Input -->
+            <article class="mb-3">
+                <label for="mynumber" class="form-label">Limit (Required)</label>
+                <input class="form-control" placeholder="Enter limit as a whole number between 1 and 2000000 (e.g. 13)" title="Enter limit as a whole number between 1 and 2000000 (e.g. 13)" id="mynumber" name="mynumber">
+            </article>
+
+            <!-- Set Up and Center Buttons -->
+            <article class="d-grid gap-2 d-flex justify-content-center">
+                <button type="submit" onclick="getNumberInfo()" class="btn btn-info">Submit</button>
+                <button type="reset" onclick="clearInfo()" class="btn btn-warning">Reset</button>
+            </article>
+        </form>
+
+        <!-- Get Number Information -->
+        <p id="numinfo"></p>
+
+        <!-- Load Script -->
+        <script src="js/script.js"></script>
+    </section>
 </body>
 </html>
