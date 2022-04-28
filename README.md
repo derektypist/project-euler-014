@@ -23,7 +23,7 @@ Information at [Project Euler 014](https://projecteuler.net/problem=14)
 
 **Getting Started**
 
-Enter the limit as a whole number between 1 and 2000000 (e.g. 13) and 
+Enter the limit as a whole number between 2 and 2000000 (e.g. 13) and 
 click on the Submit Button.  You will see the `limit` (number) you have entered as well as the
 starting number under the `limit` that produces the longest chain, unless you have made an
 invalid input.  Click on the Reset Button to clear the information or to start again.
@@ -33,7 +33,7 @@ invalid input.  Click on the Reset Button to clear the information or to start a
 As a user, I expect to get an error message, if I do any of:
 
 * Not enter anything in the input field
-* Entering a number less than 1 or greater than 2000000
+* Entering a number less than 2 or greater than 2000000
 * Entering text other than a number (e.g. bus)
 * Entering a number that is not an integer
 
@@ -54,7 +54,7 @@ As a user, I expect the function `longestCollatzSequence(1000000)` to return 837
 **Information Architecture**
 
 The function `longestCollatzSequence(limit)` returns a number, where `limit` is a number between
-1 and 2000000.
+2 and 2000000.
 
 ## Features
 
