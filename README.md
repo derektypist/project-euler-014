@@ -17,6 +17,8 @@ Which starting number, under the given `limit` (e.g. 1000000), produces the long
 
 The aim is to investigate this using HTML Forms and JavaScript.
 
+Information at [Project Euler 014](https://projecteuler.net/problem=14)
+
 ## UX
 
 **Getting Started**
@@ -49,4 +51,36 @@ As a user, I expect the function `longestCollatzSequence(100000)` to return 7703
 
 As a user, I expect the function `longestCollatzSequence(1000000)` to return 837799.
 
-You will s
+**Information Architecture**
+
+The function `longestCollatzSequence(limit)` returns a number, where `limit` is a number between
+1 and 2000000.
+
+## Features
+
+Allows the user to enter a number, as well as getting the starting number, below that number.
+Performs checks on valid user input.  If the input is not valid, an error message is displayed.
+
+## Technologies
+
+Uses HTML5, CSS3, JavaScript, Bootstrap 5.1.3 and Google Fonts.
+
+## Testing
+
+Ensure all user stories have been met.
+
+## Deployment
+
+Deployed on [GitHub Pages](https://derektypist.github.io/project-euler-014) at the main branch.
+
+## Credits
+
+### Content
+
+Written by me.
+
+### Acknowledgements
+
+- [Project Euler](https://projecteuler.net)
+- [FreeCodeCamp](https://www.freecodecamp.org)
+- [W3Schools](https://w3schools.com)
